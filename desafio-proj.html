@@ -1,0 +1,99 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en"; style="text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: 14;" >
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    </head>
+
+    <body>
+        <h1 id="title"><center> Módulo 1 - Primeiros Passos com HTML</center></h1>
+        <hr size="10px" style="background-color: aquamarine;"/>
+        <h2 id="conteudo">Conteúdo</h2>
+    <ul>
+        <li><a href="#introdução" style="text-decoration: none; background-color: azure; color: black;">Introdução ao HTML</a></li>
+        <li><a href="#estrutura" style="text-decoration: none; background-color: azure; color: black;">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#title-par" style="text-decoration: none; background-color: azure; color: black;">Títulos e parágrafos</a></li>
+        <li><a href="#listas" style="text-decoration: none; background-color: azure; color: black;">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links" style="text-decoration: none; background-color: azure; color: black;">Links de referências</a></li>
+    </ul>
+    <hr />
+
+    <h2 id="introdução">Introdução ao <abbr title="Hypertext Markup Language"> HTML</abbr></h2>
+    <p><blockquote>Não é uma linguagem de programação. É uma linguagem de marcação que informa aos navegadores como estruturar as páginas que você está visitando.</blockquote></p>
+    <p style="text-align: right;"><small><strong><a href="#conteudo" style="color: black; cursor: pointer; background-color: azure; text-decoration: none;">Voltar ao Conteúdo</a></strong></small></p>
+     <hr />
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+        <pre><code><strong>
+            &lt;!doctype html&gt; 
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;meta charset="utf-8" /&gt;
+            &lt;title&gt;Mi página de prueba &lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </strong></pre></code>
+    <ol>
+        <li><u><strong>&lt;!doctype html&gt;:</strong></u><p><blockquote>
+            Atualmente é ignorado e considerado um legado histórico que deve ser incluído para que tudo funcione corretamente. É a sequência de caracteres mais curta aceita como um elemento doctype válido. Isso é tudo que você realmente precisa saber.</blockquote></p></li><br>
+        <li><u><strong>&lt;html&gt;&lt;/html&gt;:</strong></u> Este elemento envolve todo o conteúdo da página.</li><br>
+        <li><u><strong>&lt;head&gt;&lt;/head&gt;:</strong></u> É um contêiner para todos os parâmetros incluídos no documento HTML que não ficarão visíveis aos visitantes da página.</li><br>
+        <li><u><strong>&lt;meta charset="utf-8" /&gt;:</strong></u> Está configurado para gerenciar qualquer conteúdo textual colocado no documento.</li><br>
+        <li><u><strong>&lt;title&gt;&lt;/title&gt;:</strong></u> Isso define o título da página, que é o título que aparece na aba do navegador em que a página é carregada.</li><br>
+        <li><u><strong>&lt;body&gt;&lt;/body&gt;:</strong></u> Ele contém todo o conteúdo que você deseja exibir aos usuários quando eles visitam sua página, seja texto, imagens, vídeos, jogos, faixas de áudio reproduzíveis ou qualquer outra coisa.</li>
+        <p style="text-align: right;"><small><strong><a href="#conteudo" style="color: black; cursor: pointer; background-color: azure; text-decoration: none;">Voltar ao Conteúdo</a></strong></small></p>
+        <hr />
+
+        <h2 id="title-par">Títulos e parágrafos</h2>
+        <sup><strong><u>Títulos</u></strong></sup>
+    <p>Cada seção deve ser delimitada por um elemento de cabeçalho. Existem seis elementos de cabeçalho <strong>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; e &lt;h6&gt;</strong>.</p>
+    <sup><strong><u>Págrafos</u></strong></sup>
+    <p> Cada parágrafo deve ser delimitado por um elemento <strong>&lt;p&gt;</strong>.</p>
+    <p style="text-align: right;"><small><strong><a href="#conteudo" style="color: black; cursor: pointer; background-color: azure; text-decoration: none;">Voltar ao Conteúdo</a></strong></small></p>
+    <hr />
+
+    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+
+   <sup><strong><u>&lt;ol&gt;&lt;/ol&gt;</u></strong></sup>
+   <p>Permite definir listas ou marcadores ordenados ("Lista Ordenada"), numerados ou alfabeticamente.</p>
+   <pre><code><strong>
+    &lt;ol&gt;
+    &lt;li&gt; Elemento 1&lt;/li&gt; 
+    &lt;li&gt; Elemento 2&lt;/li&gt; 
+    &lt;li&gt; Elemento 3&lt;/li&gt; 
+    &lt;/ol&gt; 
+</strong></pre></code>
+
+
+<sup><strong><u>&lt;ul&gt;&lt;/ul&gt;</u></strong></sup>
+<p>Da "lista não ordenada" - <del>não ordenada</del>. Cria uma lista não ordenada.</p>
+<pre><code><strong>
+    &lt;ul&gt;
+    &lt;li&gt; Elemento 1&lt;/li&gt; 
+    &lt;li&gt; Elemento 2&lt;/li&gt; 
+    &lt;li&gt; Elemento 3&lt;/li&gt; 
+    &lt;/ul&gt; 
+</strong></pre></code>
+
+
+       <p style="text-align: right;"><small><strong><a href="#conteudo" style="color: black; cursor: pointer; background-color: azure; text-decoration: none;">Voltar ao Conteúdo</a></strong></small></p>
+       <hr />
+
+    <div id="links">
+    <h2>Links de referências</h2>
+    <ul>
+        <li><a href="http://dio.me" target="_blank" style="color: black; text-decoration: none;">http://dio.me</a></li>
+        <li><a href="http://w3c.org" target="_blank" style="color: black; text-decoration: none;">http://w3c.org</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML" target="_blank" style="color: black; text-decoration: none;">https://developer.mozilla.org/es/docs/Learn/HTML</a></li>
+        <li><a href="https://youtu.be/zlD5gP28fAo" target="_blank" style="color: black; text-decoration: none;">https://youtu.be/zlD5gP28fAo</a></li>
+    </ul>
+    </div> 
+    <p style="text-align: right;"><small><strong><a href="#conteudo" style="color: black; cursor: pointer; background-color: azure; text-decoration: none;">Voltar ao Conteúdo</a></strong></small></p>
+    </body>
+</html>
